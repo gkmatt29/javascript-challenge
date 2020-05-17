@@ -3,11 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-  <title>UFO Finder</title>
+  <title>DM Cup</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="static/css/style.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
 </head>
 
 <body>
@@ -15,22 +16,29 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">UFO Sightings
-            <img class="nav-ufo" src="static/images/ufo.svg">
+          <a class="navbar-brand" href="index.html">DM Cup 2020
+              <img class="nav-ufo" src="static/images/golfball.png">
           </a>
         </div>
       </div>
     </nav>
+        <div style='justify-content: flex-end; margin-right: 50px' class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href=rules.html>Rules</a>
+                </li>
+            </ul>
+        </div>
     <div class="hero text-center">
-      <h1>UFO Sightings</h1>
-      <p>The Truth is Out There</p>
+      <h1>The DM Cup</h1>
+      <p>Daugherty-McGruder 2020 Golf Cup</p>
     </div>
     <div class="container">
       <div class="row margin-top-50">
         <div class="col-md-2">
           <aside class="filters">
             <div class="panel panel-default">
-              <div class="panel-heading">Filter Search</div>
+              <div class="panel-heading"></div>
               <div class="panel-body">
                 <form>
                   <div class="form-group">
@@ -39,8 +47,16 @@
                         <label for="date">Enter a Date</label>
                         <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
                       </li>
+                      <li class="filter list-group-item">
+                        <label for="player">Enter a Player Name</label>
+                        <input class="form-control" id="playerName" type="text" placeholder="Matt">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="winner">Wins</label>
+                        <input class="form-control" id="winner" type="text" placeholder="Yes">
+                      </li>
                     </ul>
-                  </div>
+                  </div> 
                   <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
                 </form>
               </div>
@@ -53,12 +69,11 @@
               <thead>
                 <tr>
                   <th class="table-head">Date</th>
-                  <th class="table-head">City</th>
-                  <th class="table-head">State</th>
-                  <th class="table-head">Country</th>
-                  <th class="table-head">Shape</th>
-                  <th class="table-head">Duration</th>
-                  <th class="table-head">Comments</th>
+                  <th class="table-head">Player Name</th>
+                  <th class="table-head">Course (Par)</th>
+                  <th class="table-head">Score</th>
+                  <th class="table-head">Winner</th>
+                  <th class="table-head">Points Won</th>
                 </tr>
               </thead>
               <tbody></tbody>
@@ -68,10 +83,10 @@
       </div>
     </div>
     <footer class="footer">
-      <span class="bottom">UFO Sightings</span>
+      <span class="bottom">DM Cup</span>
     </footer>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src=>"https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"</script>
   <script src="static/js/data.js"></script>
   <script src="static/js/app.js"></script>
 </body>
