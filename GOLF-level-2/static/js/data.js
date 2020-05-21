@@ -34,7 +34,7 @@ var data = [{
 },
 {
 
-    datetime: "5/20/2020",
+    datetime: "5/21/2020",
     playerName: "Ben",
     coursePar: "Rookery South (71)",
     score: "0",
@@ -43,7 +43,7 @@ var data = [{
 },
 {
 
-    datetime: "5/20/2020",
+    datetime: "5/21/2020",
     playerName: "Jack",
     coursePar: "Rookery South (71)",
     score: "0",
@@ -52,7 +52,7 @@ var data = [{
 },
 {
 
-    datetime: "5/20/2020",
+    datetime: "5/21/2020",
     playerName: "Matt",
     coursePar: "Rookery South (71)",
     score: "0",
@@ -61,7 +61,7 @@ var data = [{
 },
 {
 
-    datetime: "5/20/2020",
+    datetime: "5/21/2020",
     playerName: "Bob",
     coursePar: "Rookery South (71)",
     score: "0",
@@ -70,7 +70,7 @@ var data = [{
 },
 {
 
-    datetime: "5/21/2020",
+    datetime: "5/28/2020",
     playerName: "Ben",
     coursePar: "Rookery North (71)",
     score: "0",
@@ -79,7 +79,7 @@ var data = [{
 },
 {
 
-    datetime: "5/21/2020",
+    datetime: "5/28/2020",
     playerName: "Jack",
     coursePar: "Rookery North (71)",
     score: "0",
@@ -88,7 +88,7 @@ var data = [{
 },
   {
 
-    datetime: "5/21/2020",
+    datetime: "5/28/2020",
     playerName: "Matt",
     coursePar: "Rookery North (71)",
     score: "0",
@@ -97,7 +97,7 @@ var data = [{
 },
 {
 
-    datetime: "5/21/2020",
+    datetime: "5/28/2020",
     playerName: "Bob",
     coursePar: "Rookery North (71)",
     score: "0",
