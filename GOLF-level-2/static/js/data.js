@@ -3,7 +3,7 @@ var data = [{
     playerName: "Ben",
     coursePar: "American Classic (32)",
     score: "54",
-    winner: "No",
+    place: "4th",
     pointsWon: "0",
 },
 {
@@ -11,7 +11,7 @@ var data = [{
     playerName: "Matt",
     coursePar: "American Classic (32)",
     score: "52",
-    winner: "No",
+    place: "3rd",
     pointsWon: "0",
 },
 {
@@ -20,7 +20,7 @@ var data = [{
     playerName: "Jack",
     coursePar: "American Classic (32)",
     score: "46",
-    winner: "Yes",
+    place: "1st",
     pointsWon: "1",
 },
 {
@@ -29,7 +29,7 @@ var data = [{
     playerName: "Bob",
     coursePar: "American Classic (32)",
     score: "48",
-    winner: "No",
+    place: "2nd",
     pointsWon: "0",
 },
 {
@@ -37,36 +37,36 @@ var data = [{
     datetime: "5/21/2020",
     playerName: "Ben",
     coursePar: "Rookery South (71)",
-    score: "0",
-    winner: "No Result",
-    pointsWon: "0",
+    score: "97",
+    place: "2nd",
+    pointsWon: "50",
 },
 {
 
     datetime: "5/21/2020",
     playerName: "Jack",
     coursePar: "Rookery South (71)",
-    score: "0",
-    winner: "No Result",
-    pointsWon: "0",
+    score: "97",
+    place: "3rd",
+    pointsWon: "50",
 },
 {
 
     datetime: "5/21/2020",
     playerName: "Matt",
     coursePar: "Rookery South (71)",
-    score: "0",
-    winner: "No Result",
-    pointsWon: "0",
+    score: "99",
+    place: "4th",
+    pointsWon: "12.5",
 },
 {
 
     datetime: "5/21/2020",
     playerName: "Bob",
     coursePar: "Rookery South (71)",
-    score: "0",
-    winner: "No Result",
-    pointsWon: "0",
+    score: "96",
+    place: "1st",
+    pointsWon: "137.5",
 },
 {
 
@@ -74,7 +74,7 @@ var data = [{
     playerName: "Ben",
     coursePar: "Rookery North (71)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 },
 {
@@ -83,7 +83,7 @@ var data = [{
     playerName: "Jack",
     coursePar: "Rookery North (71)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 },
   {
@@ -92,7 +92,7 @@ var data = [{
     playerName: "Matt",
     coursePar: "Rookery North (71)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 },
 {
@@ -101,7 +101,7 @@ var data = [{
     playerName: "Bob",
     coursePar: "Rookery North (71)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 },
 {
@@ -110,7 +110,7 @@ var data = [{
     playerName: "Ben",
     coursePar: "Rehoboth CC (72)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 },
 {
@@ -119,7 +119,7 @@ var data = [{
     playerName: "Jack",
     coursePar: "Rehoboth CC (72)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 },
 {
@@ -128,7 +128,7 @@ var data = [{
     playerName: "Matt",
     coursePar: "Rehoboth CC (72)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 },
 {
@@ -137,7 +137,7 @@ var data = [{
     playerName: "Bob",
     coursePar: "Rehoboth CC (72)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
   },
 {
@@ -145,7 +145,7 @@ var data = [{
   playerName: "Ben",
   coursePar: "Baywood Greens (72)",
   score: "0",
-  winner: "No Result",
+  place: "No Result",
   pointsWon: "0",
 },
 {
@@ -154,7 +154,7 @@ var data = [{
     playerName: "Jack",
     coursePar: "Baywood Greens (72)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 },
 {
@@ -163,7 +163,7 @@ var data = [{
     playerName: "Matt",
     coursePar: "Baywood Greens (72)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 },
 {
@@ -172,7 +172,7 @@ var data = [{
     playerName: "Bob",
     coursePar: "Baywood Greens (72)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 },
 {
@@ -180,7 +180,7 @@ var data = [{
   playerName: "Ben",
   coursePar: "Salt Pond (61)",
   score: "0",
-  winner: "No Result",
+  place: "No Result",
   pointsWon: "0",
 },
 {
@@ -189,7 +189,7 @@ var data = [{
     playerName: "Jack",
     coursePar: "Salt Pond (61)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 },
 {
@@ -198,7 +198,7 @@ var data = [{
     playerName: "Matt",
     coursePar: "Salt Pond (61)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 },
 {
@@ -207,6 +207,6 @@ var data = [{
     playerName: "Bob",
     coursePar: "Salt Pond (61)",
     score: "0",
-    winner: "No Result",
+    place: "No Result",
     pointsWon: "0",
 }]
